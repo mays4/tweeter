@@ -1,0 +1,71 @@
+nav{
+  height: 120px;
+  background-color: #4056A1;
+  color: #FFFFFF;
+  width: 100%;
+  position:fixed;
+  top: 0;
+  
+}
+.tweet-span{
+font-family: 'Bungee';
+margin:0 1.5em 0   1.5em;
+padding-top: 40px;
+padding-left:1.5em;
+
+}
+.tweet-align{
+  font-style: italic;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.align-nav-tweet{
+  display:flex;
+  flex-direction: column;
+  align-content: flex-end;
+  width: 70%;
+
+}
+
+.align-parg{
+margin:0 1.5em 0   1.5em;
+padding-top: 40px;
+padding-left:1.5em; 
+text-align: right;
+
+}
+
+
+
+button.align-icon{
+  color: red;
+  margin:0 5em 0   1.5em;
+  align-self: flex-start;
+  background-color:transparent;
+  float: right;
+  border-style: none;
+  outline: none;
+  animation-delay: 0;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: moveArrow;
+ 
+
+}
+/* .nav-div{
+ 
+} */
+button{
+  cursor: pointer;
+  
+}
+@keyframes moveArrow {
+  from {
+    margin-top: 15px;
+  }
+  to {
+    margin-bottom: 40px;
+  }
+}
