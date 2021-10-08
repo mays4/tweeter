@@ -21,5 +21,5 @@ This repository is the starter code for the project: Students will fork and clon
 -The textarea will be hidden until you click the animated arrow and it will show and you can add tweet !["showText.png"](https://github.com/mays4/tweeter/blob/master/public/doc/showText.png?raw=true)
 - If the tweet empty or more than 140 letter you will get warning!["emptyText.png"](https://github.com/mays4/tweeter/blob/master/public/doc/emptyText.png?raw=true)
 !["mortThan140.png"](https://github.com/mays4/tweeter/blob/master/public/doc/moreThan140.png?raw=true)
-- the screen is responitive you can have the desktop size and tablet size !["tabletSize.png"](https://github.com/mays4/tweeter/blob/master/public/doc/tabletSize.png?raw=true) &!["smallerSize.png"](https://github.com/mays4/tweeter/blob/master/public/doc/smallerSize.png?raw=true)
+- the screen is responsive you can have the desktop size and tablet size !["tabletSize.png"](https://github.com/mays4/tweeter/blob/master/public/doc/tabletSize.png?raw=true) & !["smallerSize.png"](https://github.com/mays4/tweeter/blob/master/public/doc/smallerSize.png?raw=true)
 Have nice tweets :)
