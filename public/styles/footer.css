@@ -1,0 +1,36 @@
+
+.button-align{
+  background-color: rgb(8, 97, 97);
+  margin: 20px;
+}
+
+.counter{
+ float: right;
+ margin: 20px;
+ color :black;
+ ;
+
+ 
+}
+/* #tweet-text */
+
+  textarea {
+  border: none;
+  /* background-color: #008c8c;  */
+  background-color: #f4f1ec;
+ background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");  
+  border-bottom-style:  solid;
+  border-bottom-width: 0.25em;
+  border-bottom-left-radius: 0.25em;
+  border-bottom-right-radius: 0.25em;
+  width: 100%;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+   resize: none; 
+
+}
+section.new-tweet{
+  display: none;
+}
