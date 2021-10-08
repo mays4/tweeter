@@ -5,20 +5,21 @@ nav{
   width: 100%;
   position:fixed;
   top: 0;
+  padding-left:0.5em;
+  padding-right:0.5em;
   
 }
 .tweet-span{
-font-family: 'Bungee';
-margin:0 1.5em 0   1.5em;
-padding-top: 40px;
-padding-left:1.5em;
+  font-family: 'Bungee';
+  margin:0 1.5em 0   1.5em;
+  padding-top: 40px;
+  padding-left:1.5em;
 
 }
 .tweet-align{
   font-style: italic;
   display: flex;
   flex-direction: row;
-  
 }
 
 .align-nav-tweet{
@@ -26,18 +27,14 @@ padding-left:1.5em;
   flex-direction: column;
   align-content: flex-end;
   width: 70%;
-
 }
 
 .align-parg{
-margin:0 1.5em 0   1.5em;
-padding-top: 40px;
-padding-left:1.5em; 
-text-align: right;
-
+  margin:0 1.5em 0   1.5em;
+  padding-top: 40px;
+  padding-left:1.5em; 
+  text-align: right;
 }
-
-
 
 button.align-icon{
   color: red;
@@ -51,19 +48,16 @@ button.align-icon{
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-name: moveArrow;
- 
-
+  
 }
-/* .nav-div{
- 
-} */
+
 button{
   cursor: pointer;
   
 }
 @keyframes moveArrow {
   from {
-    margin-top: 15px;
+    margin-top: 20px;
   }
   to {
     margin-bottom: 40px;

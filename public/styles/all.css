@@ -14,18 +14,15 @@
 
 button.icon{
   color: rgb(37, 20, 190);
-    /* margin-top: 0; */
-    padding-right: 2em;
-    align-self: flex-end;
+  padding-right: 2em;
+  align-self: flex-end;
   
 }
 
 footer{
   border: none;
   background-color: transparent;
-  /* border-bottom-style: solid; */
   align-self: center;
-  
   margin: 20px;
   display: flex;
   align-items: center;
@@ -37,32 +34,23 @@ footer{
   color :black ;
 }
 ul i:hover { 
- color:rgb(131, 131, 56);
+  color:rgb(131, 131, 56);
 }
 
 .name-of-avatar{
-
-
-  color :black ;
+color :black ;
 }
 .handle{
-  /* padding-top :80px; */
   padding-right:50px;
   color :black ;
 }
 
-/* .footer-adjust{
-  width: 100%;
-  background-color: rgb(33, 24, 153);
-} */
 .line{
-
   width: 100%;
   border-color: teal ;
   
 }
-  .tweet:hover {
-  /* overflow: hidden; */
+.tweet:hover {
   box-shadow: 0.5rem 0.5rem rgb(23, 41, 124), -0.5rem -0.5rem rgb(2, 20, 36);
 }
 .tweet{

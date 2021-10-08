@@ -23,19 +23,15 @@ body {
   padding-top:115px;
   
 }
-
-
-.container{
-  width: 100%;
-   /* background-color: #008c8c; */
-  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png"); 
-  display: flex;
-  flex-direction: column;
- 
-  
-}
-
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+ .container{
+  width: 100%;
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png"); 
+  display: flex;
+  flex-direction: column;
+  
+}
  

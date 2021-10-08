@@ -5,18 +5,13 @@
 }
 
 .counter{
- float: right;
- margin: 20px;
- color :black;
- ;
-
- 
+  float: right;
+  margin: 20px;
+  color :black;
 }
-/* #tweet-text */
 
-  textarea {
+textarea {
   border: none;
-  /* background-color: #008c8c;  */
   background-color: #f4f1ec;
  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");  
   border-bottom-style:  solid;
@@ -28,7 +23,7 @@
   display: flex;
   flex-direction: column;
   align-self: center;
-   resize: none; 
+  resize: none; 
 
 }
 section.new-tweet{
