@@ -19,7 +19,7 @@ This repository is the starter code for the project: Students will fork and clon
 -go to http://localhost:8080 in the browser.
 -the main page will show !["tweeterPage.png"](https://github.com/mays4/tweeter/blob/master/public/doc/tweeterPage.png?raw=true)
 -The textarea will be hidden until you click the animated arrow and it will show and you can add tweet !["showText.png"](https://github.com/mays4/tweeter/blob/master/public/doc/showText.png?raw=true)
-- If the tweet empty or more than 140 letter you will get warning["emptyText"](https://github.com/mays4/tweeter/blob/master/public/doc/emptyText.png?raw=true)
+- If the tweet empty or more than 140 letter you will get warning!["emptyText"](https://github.com/mays4/tweeter/blob/master/public/doc/emptyText.png?raw=true)
 !["mortThan140.png"](https://github.com/mays4/tweeter/blob/master/public/doc/moreThan140.png?raw=true)
 - the screen is responitive you can have the desktop size and tablet size !["tweeter-758.png"](https://github.com/mays4/tweeter/blob/master/public/doc/tweeter-768.png?raw=true) &!["smallerSize.png"](https://github.com/mays4/tweeter/blob/master/public/doc/smallerSize.png?raw=true)
-Have a nice tweets :)
+Have nice tweets :)
