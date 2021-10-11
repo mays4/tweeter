@@ -1,10 +1,4 @@
-/*
- * Client-side JS logic goes here
- * jQuery is already loaded
- * Reminder: Use (and do all your DOM work in) jQuery's document ready function
- */
 
-// Fake data taken from initial-tweets.json
 $(()=> {
     
     const escape = function (str) {
@@ -12,14 +6,12 @@ $(()=> {
       div.appendChild(document.createTextNode(str));
       return div.innerHTML;
     };
-    // const safeHTML = `<p>${escape(textFromUser)}</p>`;
   const loadTweets = function (){
     $.ajax({
       url: "/tweets",
       method: "GET",
       dataType: "json",
       success: (tweets) => {
-        // console.log("data:", tweets)
         renderTweets(tweets)
       },
       error:(err) => {
@@ -29,21 +21,16 @@ $(()=> {
   }
   loadTweets();
   const renderTweets = function(tweets) {
-  // loops through tweets
-  // calls createTweetElement for each tweet
-  // takes return value and appends it to the tweets container
-  // const $tweetContainer = $("section.tweet");
     $("section.for-all-tweets").empty();
     for (const tweet of tweets) {
-      //console.log("tweet",tweet);
       const $tweet = createTweetElement(tweet);
       $("section.for-all-tweets").prepend($tweet);
     }
   };
   const createTweetElement = function(tweetArr) {
-  /* Your code for creating the tweet element */
+  /* creating the tweet element */
     const $tweet = $("<article>").addClass("tweet");
-    const markup = `
+    const tweet_conainer= `
     <header class="header_name">
         <div class="avatar_name">
         <img class="avatar" src =${tweetArr.user.avatars}>
@@ -65,44 +52,37 @@ $(()=> {
         </ul>
     </footer>
     `;
-    
-    $tweet.append(markup);
-    console.log("test")
+    $tweet.append(tweet_conainer);
     return $tweet;
   };
-  // renderTweets(data);
   const $form = $("#new-tweet-form");
   $form.on("submit", function(event) {
     event.preventDefault();
     $('#error').empty();
     $('#error').hide();
   const $tweetNew = $('.new-tweet textarea').val();
-  console.log("tweet",$tweetNew)
 
   if ($tweetNew.length > 140) {
-     //alert("limit are 140 words")
      $("#error").text("❌limit are 140 words🛑🚫");
      $("#error").slideDown("slow");
 
   } else if (!$tweetNew.length){
-    //alert("error empty ")
     $("#error").text("❌ error empty text🛑🚫");
     $("#error").slideDown("slow");
   }
   else{
     
     const serializedData = $(this).serialize();
-    //console.log(serializedData)
     $.post("/tweets", serializedData, (response) => {
-      console.log(response)
       loadTweets();
+      $('.new-tweet textarea').val("");
     })
+    
   }
   });
 $(".nav-div button").click(()=>{
 $("section.new-tweet").slideToggle("slow");
 $("section.new-tweet textarea").focus()
-
 });
   
 });
